@@ -29,6 +29,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/itwyhuaing/JXFMDBMOperator.git", :tag => "0.0.1" }
   s.source_files  = "JXFMDBMOperator/*.{h,m}"
   s.requires_arc = true
-  # s.dependency "FMDB", "~> 2.7.2"
+  s.dependency "FMDB", "~> 2.7.2"
 
 end
