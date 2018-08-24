@@ -7,109 +7,126 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26C2AF65212FEB73001CB9E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C2AF63212FEB73001CB9E1 /* Main.storyboard */; };
-		26C2AF67212FEB74001CB9E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C2AF66212FEB74001CB9E1 /* Assets.xcassets */; };
-		26C2AF6A212FEB74001CB9E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C2AF68212FEB74001CB9E1 /* LaunchScreen.storyboard */; };
-		26C2AF6D212FEB74001CB9E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C2AF6C212FEB74001CB9E1 /* main.m */; };
-		26C2AF7A212FEBBF001CB9E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C2AF76212FEBBF001CB9E1 /* ViewController.m */; };
-		26C2AF7B212FEBBF001CB9E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C2AF77212FEBBF001CB9E1 /* AppDelegate.m */; };
-		26C2AF7E212FEC72001CB9E1 /* JXFMDBMOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C2AF7D212FEC72001CB9E1 /* JXFMDBMOperator.m */; };
+		26C2AF93213001A7001CB9E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C2AF91213001A7001CB9E1 /* Main.storyboard */; };
+		26C2AF95213001A8001CB9E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C2AF94213001A8001CB9E1 /* Assets.xcassets */; };
+		26C2AF98213001A8001CB9E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C2AF96213001A8001CB9E1 /* LaunchScreen.storyboard */; };
+		26C2AF9B213001A8001CB9E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C2AF9A213001A8001CB9E1 /* main.m */; };
+		26C2AFA9213001DE001CB9E1 /* JXFMDBMOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C2AFA2213001DE001CB9E1 /* JXFMDBMOperator.m */; };
+		26C2AFAA213001DE001CB9E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C2AFA6213001DE001CB9E1 /* ViewController.m */; };
+		26C2AFAB213001DE001CB9E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C2AFA7213001DE001CB9E1 /* AppDelegate.m */; };
+		76CEC9E25DF2EC2BB165624C /* libPods-JXFMDBMOperatorDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F3AB36D530B0ED29AEB969 /* libPods-JXFMDBMOperatorDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		26C2AF5A212FEB73001CB9E1 /* JXFMDBMOperatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXFMDBMOperatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		26C2AF64212FEB73001CB9E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		26C2AF66212FEB74001CB9E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		26C2AF69212FEB74001CB9E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		26C2AF6B212FEB74001CB9E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26C2AF6C212FEB74001CB9E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		26C2AF75212FEBBF001CB9E1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		26C2AF76212FEBBF001CB9E1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		26C2AF77212FEBBF001CB9E1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		26C2AF78212FEBBF001CB9E1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		26C2AF7C212FEC72001CB9E1 /* JXFMDBMOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXFMDBMOperator.h; sourceTree = "<group>"; };
-		26C2AF7D212FEC72001CB9E1 /* JXFMDBMOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXFMDBMOperator.m; sourceTree = "<group>"; };
+		26C2AF88213001A7001CB9E1 /* JXFMDBMOperatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXFMDBMOperatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C2AF92213001A7001CB9E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26C2AF94213001A8001CB9E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26C2AF97213001A8001CB9E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26C2AF99213001A8001CB9E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26C2AF9A213001A8001CB9E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26C2AFA2213001DE001CB9E1 /* JXFMDBMOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXFMDBMOperator.m; sourceTree = "<group>"; };
+		26C2AFA3213001DE001CB9E1 /* JXFMDBMOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXFMDBMOperator.h; sourceTree = "<group>"; };
+		26C2AFA5213001DE001CB9E1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26C2AFA6213001DE001CB9E1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26C2AFA7213001DE001CB9E1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26C2AFA8213001DE001CB9E1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		63F3AB36D530B0ED29AEB969 /* libPods-JXFMDBMOperatorDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXFMDBMOperatorDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8FC0C5C977B36FB33BDB916 /* Pods-JXFMDBMOperatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXFMDBMOperatorDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXFMDBMOperatorDemo/Pods-JXFMDBMOperatorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E8A149EFC17EC12B7C5D042F /* Pods-JXFMDBMOperatorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXFMDBMOperatorDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXFMDBMOperatorDemo/Pods-JXFMDBMOperatorDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		26C2AF57212FEB73001CB9E1 /* Frameworks */ = {
+		26C2AF85213001A7001CB9E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76CEC9E25DF2EC2BB165624C /* libPods-JXFMDBMOperatorDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		26C2AF51212FEB73001CB9E1 = {
+		1AFE68799725ECDD6032B56B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				26C2AF5C212FEB73001CB9E1 /* JXFMDBMOperatorDemo */,
-				26C2AF5B212FEB73001CB9E1 /* Products */,
+				63F3AB36D530B0ED29AEB969 /* libPods-JXFMDBMOperatorDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26C2AF7F213001A7001CB9E1 = {
+			isa = PBXGroup;
+			children = (
+				26C2AF8A213001A7001CB9E1 /* JXFMDBMOperatorDemo */,
+				26C2AF89213001A7001CB9E1 /* Products */,
+				F30CE5EED82E407EEFC510D7 /* Pods */,
+				1AFE68799725ECDD6032B56B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		26C2AF5B212FEB73001CB9E1 /* Products */ = {
+		26C2AF89213001A7001CB9E1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				26C2AF5A212FEB73001CB9E1 /* JXFMDBMOperatorDemo.app */,
+				26C2AF88213001A7001CB9E1 /* JXFMDBMOperatorDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		26C2AF5C212FEB73001CB9E1 /* JXFMDBMOperatorDemo */ = {
+		26C2AF8A213001A7001CB9E1 /* JXFMDBMOperatorDemo */ = {
 			isa = PBXGroup;
 			children = (
-				26C2AF74212FEBBF001CB9E1 /* Main */,
-				26C2AF79212FEBBF001CB9E1 /* Func */,
-				26C2AF73212FEBBF001CB9E1 /* JXFMDBMOperator */,
-				26C2AF63212FEB73001CB9E1 /* Main.storyboard */,
-				26C2AF66212FEB74001CB9E1 /* Assets.xcassets */,
-				26C2AF68212FEB74001CB9E1 /* LaunchScreen.storyboard */,
-				26C2AF6B212FEB74001CB9E1 /* Info.plist */,
-				26C2AF6C212FEB74001CB9E1 /* main.m */,
+				26C2AFA4213001DE001CB9E1 /* Main */,
+				26C2AFA1213001DE001CB9E1 /* JXFMDBMOperator */,
+				26C2AF91213001A7001CB9E1 /* Main.storyboard */,
+				26C2AF94213001A8001CB9E1 /* Assets.xcassets */,
+				26C2AF96213001A8001CB9E1 /* LaunchScreen.storyboard */,
+				26C2AF99213001A8001CB9E1 /* Info.plist */,
+				26C2AF9A213001A8001CB9E1 /* main.m */,
 			);
 			path = JXFMDBMOperatorDemo;
 			sourceTree = "<group>";
 		};
-		26C2AF73212FEBBF001CB9E1 /* JXFMDBMOperator */ = {
+		26C2AFA1213001DE001CB9E1 /* JXFMDBMOperator */ = {
 			isa = PBXGroup;
 			children = (
-				26C2AF7C212FEC72001CB9E1 /* JXFMDBMOperator.h */,
-				26C2AF7D212FEC72001CB9E1 /* JXFMDBMOperator.m */,
+				26C2AFA2213001DE001CB9E1 /* JXFMDBMOperator.m */,
+				26C2AFA3213001DE001CB9E1 /* JXFMDBMOperator.h */,
 			);
 			path = JXFMDBMOperator;
 			sourceTree = "<group>";
 		};
-		26C2AF74212FEBBF001CB9E1 /* Main */ = {
+		26C2AFA4213001DE001CB9E1 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				26C2AF75212FEBBF001CB9E1 /* AppDelegate.h */,
-				26C2AF77212FEBBF001CB9E1 /* AppDelegate.m */,
-				26C2AF78212FEBBF001CB9E1 /* ViewController.h */,
-				26C2AF76212FEBBF001CB9E1 /* ViewController.m */,
+				26C2AFA5213001DE001CB9E1 /* AppDelegate.h */,
+				26C2AFA6213001DE001CB9E1 /* ViewController.m */,
+				26C2AFA7213001DE001CB9E1 /* AppDelegate.m */,
+				26C2AFA8213001DE001CB9E1 /* ViewController.h */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		26C2AF79212FEBBF001CB9E1 /* Func */ = {
+		F30CE5EED82E407EEFC510D7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				E8A149EFC17EC12B7C5D042F /* Pods-JXFMDBMOperatorDemo.debug.xcconfig */,
+				C8FC0C5C977B36FB33BDB916 /* Pods-JXFMDBMOperatorDemo.release.xcconfig */,
 			);
-			path = Func;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		26C2AF59212FEB73001CB9E1 /* JXFMDBMOperatorDemo */ = {
+		26C2AF87213001A7001CB9E1 /* JXFMDBMOperatorDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26C2AF70212FEB74001CB9E1 /* Build configuration list for PBXNativeTarget "JXFMDBMOperatorDemo" */;
+			buildConfigurationList = 26C2AF9E213001A8001CB9E1 /* Build configuration list for PBXNativeTarget "JXFMDBMOperatorDemo" */;
 			buildPhases = (
-				26C2AF56212FEB73001CB9E1 /* Sources */,
-				26C2AF57212FEB73001CB9E1 /* Frameworks */,
-				26C2AF58212FEB73001CB9E1 /* Resources */,
+				50C33F7DB500180E9E0883B0 /* [CP] Check Pods Manifest.lock */,
+				26C2AF84213001A7001CB9E1 /* Sources */,
+				26C2AF85213001A7001CB9E1 /* Frameworks */,
+				26C2AF86213001A7001CB9E1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -117,24 +134,24 @@
 			);
 			name = JXFMDBMOperatorDemo;
 			productName = JXFMDBMOperatorDemo;
-			productReference = 26C2AF5A212FEB73001CB9E1 /* JXFMDBMOperatorDemo.app */;
+			productReference = 26C2AF88213001A7001CB9E1 /* JXFMDBMOperatorDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		26C2AF52212FEB73001CB9E1 /* Project object */ = {
+		26C2AF80213001A7001CB9E1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = JiXia;
 				TargetAttributes = {
-					26C2AF59212FEB73001CB9E1 = {
+					26C2AF87213001A7001CB9E1 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 26C2AF55212FEB73001CB9E1 /* Build configuration list for PBXProject "JXFMDBMOperatorDemo" */;
+			buildConfigurationList = 26C2AF83213001A7001CB9E1 /* Build configuration list for PBXProject "JXFMDBMOperatorDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,56 +159,77 @@
 				en,
 				Base,
 			);
-			mainGroup = 26C2AF51212FEB73001CB9E1;
-			productRefGroup = 26C2AF5B212FEB73001CB9E1 /* Products */;
+			mainGroup = 26C2AF7F213001A7001CB9E1;
+			productRefGroup = 26C2AF89213001A7001CB9E1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				26C2AF59212FEB73001CB9E1 /* JXFMDBMOperatorDemo */,
+				26C2AF87213001A7001CB9E1 /* JXFMDBMOperatorDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		26C2AF58212FEB73001CB9E1 /* Resources */ = {
+		26C2AF86213001A7001CB9E1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26C2AF6A212FEB74001CB9E1 /* LaunchScreen.storyboard in Resources */,
-				26C2AF67212FEB74001CB9E1 /* Assets.xcassets in Resources */,
-				26C2AF65212FEB73001CB9E1 /* Main.storyboard in Resources */,
+				26C2AF98213001A8001CB9E1 /* LaunchScreen.storyboard in Resources */,
+				26C2AF95213001A8001CB9E1 /* Assets.xcassets in Resources */,
+				26C2AF93213001A7001CB9E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50C33F7DB500180E9E0883B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JXFMDBMOperatorDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		26C2AF56212FEB73001CB9E1 /* Sources */ = {
+		26C2AF84213001A7001CB9E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26C2AF7E212FEC72001CB9E1 /* JXFMDBMOperator.m in Sources */,
-				26C2AF7A212FEBBF001CB9E1 /* ViewController.m in Sources */,
-				26C2AF6D212FEB74001CB9E1 /* main.m in Sources */,
-				26C2AF7B212FEBBF001CB9E1 /* AppDelegate.m in Sources */,
+				26C2AFAB213001DE001CB9E1 /* AppDelegate.m in Sources */,
+				26C2AFAA213001DE001CB9E1 /* ViewController.m in Sources */,
+				26C2AFA9213001DE001CB9E1 /* JXFMDBMOperator.m in Sources */,
+				26C2AF9B213001A8001CB9E1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		26C2AF63212FEB73001CB9E1 /* Main.storyboard */ = {
+		26C2AF91213001A7001CB9E1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				26C2AF64212FEB73001CB9E1 /* Base */,
+				26C2AF92213001A7001CB9E1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		26C2AF68212FEB74001CB9E1 /* LaunchScreen.storyboard */ = {
+		26C2AF96213001A8001CB9E1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				26C2AF69212FEB74001CB9E1 /* Base */,
+				26C2AF97213001A8001CB9E1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -199,7 +237,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		26C2AF6E212FEB74001CB9E1 /* Debug */ = {
+		26C2AF9C213001A8001CB9E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,7 +295,7 @@
 			};
 			name = Debug;
 		};
-		26C2AF6F212FEB74001CB9E1 /* Release */ = {
+		26C2AF9D213001A8001CB9E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -309,14 +347,13 @@
 			};
 			name = Release;
 		};
-		26C2AF71212FEB74001CB9E1 /* Debug */ = {
+		26C2AF9F213001A8001CB9E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A149EFC17EC12B7C5D042F /* Pods-JXFMDBMOperatorDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JA7UMD99EC;
 				INFOPLIST_FILE = JXFMDBMOperatorDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,14 +364,13 @@
 			};
 			name = Debug;
 		};
-		26C2AF72212FEB74001CB9E1 /* Release */ = {
+		26C2AFA0213001A8001CB9E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8FC0C5C977B36FB33BDB916 /* Pods-JXFMDBMOperatorDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JA7UMD99EC;
 				INFOPLIST_FILE = JXFMDBMOperatorDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -348,25 +384,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		26C2AF55212FEB73001CB9E1 /* Build configuration list for PBXProject "JXFMDBMOperatorDemo" */ = {
+		26C2AF83213001A7001CB9E1 /* Build configuration list for PBXProject "JXFMDBMOperatorDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26C2AF6E212FEB74001CB9E1 /* Debug */,
-				26C2AF6F212FEB74001CB9E1 /* Release */,
+				26C2AF9C213001A8001CB9E1 /* Debug */,
+				26C2AF9D213001A8001CB9E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		26C2AF70212FEB74001CB9E1 /* Build configuration list for PBXNativeTarget "JXFMDBMOperatorDemo" */ = {
+		26C2AF9E213001A8001CB9E1 /* Build configuration list for PBXNativeTarget "JXFMDBMOperatorDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26C2AF71212FEB74001CB9E1 /* Debug */,
-				26C2AF72212FEB74001CB9E1 /* Release */,
+				26C2AF9F213001A8001CB9E1 /* Debug */,
+				26C2AFA0213001A8001CB9E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 26C2AF52212FEB73001CB9E1 /* Project object */;
+	rootObject = 26C2AF80213001A7001CB9E1 /* Project object */;
 }
