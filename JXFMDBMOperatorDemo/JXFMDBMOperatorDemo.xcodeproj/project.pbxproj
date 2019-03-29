@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		265D1A10224DF482003493C2 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 265D1A0F224DF482003493C2 /* Note.m */; };
 		26C2AF93213001A7001CB9E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C2AF91213001A7001CB9E1 /* Main.storyboard */; };
 		26C2AF95213001A8001CB9E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C2AF94213001A8001CB9E1 /* Assets.xcassets */; };
 		26C2AF98213001A8001CB9E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C2AF96213001A8001CB9E1 /* LaunchScreen.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		265D1A0F224DF482003493C2 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
 		26C2AF88213001A7001CB9E1 /* JXFMDBMOperatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXFMDBMOperatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26C2AF92213001A7001CB9E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26C2AF94213001A8001CB9E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -90,8 +92,8 @@
 		26C2AFA1213001DE001CB9E1 /* JXFMDBMOperator */ = {
 			isa = PBXGroup;
 			children = (
-				26C2AFA2213001DE001CB9E1 /* JXFMDBMOperator.m */,
 				26C2AFA3213001DE001CB9E1 /* JXFMDBMOperator.h */,
+				26C2AFA2213001DE001CB9E1 /* JXFMDBMOperator.m */,
 			);
 			path = JXFMDBMOperator;
 			sourceTree = "<group>";
@@ -99,10 +101,11 @@
 		26C2AFA4213001DE001CB9E1 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				265D1A0F224DF482003493C2 /* Note.m */,
 				26C2AFA5213001DE001CB9E1 /* AppDelegate.h */,
-				26C2AFA6213001DE001CB9E1 /* ViewController.m */,
 				26C2AFA7213001DE001CB9E1 /* AppDelegate.m */,
 				26C2AFA8213001DE001CB9E1 /* ViewController.h */,
+				26C2AFA6213001DE001CB9E1 /* ViewController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				265D1A10224DF482003493C2 /* Note.m in Sources */,
 				26C2AFAB213001DE001CB9E1 /* AppDelegate.m in Sources */,
 				26C2AFAA213001DE001CB9E1 /* ViewController.m in Sources */,
 				26C2AFA9213001DE001CB9E1 /* JXFMDBMOperator.m in Sources */,
@@ -354,13 +358,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JXFMDBMOperatorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jixia.www.JXFMDBMOperatorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -371,13 +376,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JXFMDBMOperatorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jixia.www.JXFMDBMOperatorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

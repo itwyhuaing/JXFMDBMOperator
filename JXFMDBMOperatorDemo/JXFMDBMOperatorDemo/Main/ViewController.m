@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "JXFMDBMOperator.h"
 
 @interface ViewController ()
 
@@ -16,14 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [[JXFMDBMOperator sharedInstance] openLog];
+    [[JXFMDBMOperator sharedInstance] createDataBaseWithdbName:nil];
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end
