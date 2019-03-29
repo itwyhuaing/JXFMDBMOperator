@@ -8,6 +8,7 @@
 
 #import "JXFMDBMOperator.h"
 #import <objc/runtime.h>
+#import "FMDB.h"
 
 static NSString *kdataBase = @"FMDatabase";  /**<数据库后缀>*/
 static NSString *kdataTable = @"Table";      /**<数据表后缀>*/
