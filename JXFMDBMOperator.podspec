@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "JXFMDBMOperator"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "SQLite Operator base on FMDB ."
   s.description  = <<-DESC
                       在 FMDB 的基础上简单封装一些操作数据库的 API 。

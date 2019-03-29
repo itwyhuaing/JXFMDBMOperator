@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <FMDB/FMDB.h>
 
 @interface JXDataModelParser : NSObject
 
